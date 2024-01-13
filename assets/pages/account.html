@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+            <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="../../css/styles.css">
+        <title>Armageddon Store Website</title>
+    </head>
+    
+    <body>
+
+        <header id="header">
+            <div class="h-top">
+                <div class="h-header container">
+                    <div class="h-contact">
+                        <span>(+229) 99 93 XX XX</span>
+                        <span>our location</span>
+                    </div>
+                    <p class="h-news-info">
+                        <span>super value deals - save</span> more with coupons
+                    </p>
+                    
+                    <a href="./login-r.html" class="h-action">log in / sign up</a>
+                </div>
+            </div>
+
+            <nav class="nav container">
+                <a href="../../index.html" class="logo-nav">
+                    <img src="#" alt="" class="logo-nav-img">
+                </a>
+
+                <div id="nav-menu" class="nav-menu">
+                    <div class="nav-menu-top">
+                        <a href="../../index.html" class="nav-menu-logo">
+                            <img src="#" alt="">
+                        </a>
+
+                        <div id="nav-close" class="nav-close">
+                            <i class="ri-menu-fold-fill"></i>
+                        </div>
+                    </div>
+                    
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="../../index.html" class="nav-link">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="./shop.html" class="nav-link active-link">shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./account.html" class="nav-link">my account</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./compare.html" class="nav-link">compare</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./login-r.html" class="nav-link">login</a>
+                        </li>
+                    </ul>
+
+                    <div class="h-search">
+                        <input type="text" class="form-input" placeholder="Search For Items...">
+                        
+                        <button class="search-btn">
+                            <i class="ri-search-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="h-user-actions">
+                    <a href="./wishlist.html" class="h-act-btn">
+                        <i class="ri-heart-line"></i>
+                        <span class="count">3</span>
+                    </a>
+
+                    <a href="./cart.html" class="h-act-btn">
+                        <i class="ri-shopping-cart-line"></i>
+                        <span class="count">3</span>
+                    </a>
+
+                    <div id="nav-toggle" class="h-act-btn nav-toggle">
+                        <i class="ri-menu-unfold-fill"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section id="brdcrumb">
+                <ul class="brdcrumb-list flex container">
+                    <li><a href="../../index.html" class="brdcrumb-link">home</a></li>
+                    <li><span class="brdcrumb-link">></span></li>
+                    <li><span class="brdcrumb-link">account</span></li>
+                </ul>
+            </section>
+
+            <section id="accounts" class="sect-lg">
+                <div class="accounts-c container grid">
+                    <div class="account-tabs">
+                        <p class="account-tab active-tab" data-target="#dashboard">
+                            <i class="ri-dashboard-line"></i> dashboard
+                        </p>
+                        <p class="account-tab" data-target="#orders">
+                            <i class="ri-shopping-basket-line"></i> orders
+                        </p>
+                        <p class="account-tab" data-target="#update-profile">
+                            <i class="ri-user-3-line"></i> update profile
+                        </p>
+                        <p class="account-tab" data-target="#address">
+                            <i class="ri-road-map-line"></i> my address
+                        </p>
+                        <p class="account-tab" data-target="#change-password">
+                            <i class="ri-user-settings-line"></i> change password
+                        </p>
+                        <p class="account-tab">
+                            <i class="ri-logout-box-line"></i> logout
+                        </p>
+                    </div>
+
+                    <div class="tabs-content">
+                        <div class="tab-content active-tab" content id="dashboard">
+                            <h3 class="tab-header">hello lucie!</h3>
+
+                            <div class="tab-body">
+                                <p class="tab-desc">
+                                    From your account dashboard. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum libero corporis est corrupti enim voluptatem, ea, perspiciatis nobis molestiae rem magni numquam accusamus nisi a sint veritatis voluptatum.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" content id="orders">
+                            <h3 class="tab-header">your orders</h3>
+
+                            <div class="tab-body">
+                                <table class="placed-order-table">
+                                    <tr>
+                                        <th>orders</th>
+                                        <th>date</th>
+                                        <th>status</th>
+                                        <th>total</th>
+                                        <th>actions</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>#19675</td>
+                                        <td>november 27, 2023</td>
+                                        <td>processing</td>
+                                        <td>#$150.00</td>
+                                        <td>
+                                            <a href="#" class="view-order">view</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>#17097</td>
+                                        <td>april 4, 2023</td>
+                                        <td>completed</td>
+                                        <td>#$350.00</td>
+                                        <td>
+                                            <a href="#" class="view-order">view</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>#19675</td>
+                                        <td>january 10, 2023</td>
+                                        <td>completed</td>
+                                        <td>#$750.00</td>
+                                        <td>
+                                            <a href="#" class="view-order">view</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" content id="update-profile">
+                            <h3 class="tab-header">update profile</h3>
+
+                            <div class="tab-body">
+                                <form action="" class="form grid">
+                                    <input type="text" placeholder="Username" class="form-input">
+
+                                    <div class="form-btn">
+                                        <button class="btn btn-md">save</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" content id="address">
+                            <h3 class="tab-header">shipping address</h3>
+
+                            <div class="tab-body">
+                                <address class="address">
+                                    Street 22 <br>
+                                    64 business spur, <br>
+                                    sault ste. <br>
+                                    Joseph, MI 34765
+                                </address>
+                                <p class="city">Abomey-Calavi</p>
+                                <a href="" class="edit">edit</a>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" content id="change-password">
+                            <h3 class="tab-header">change password</h3>
+
+                            <div class="tab-body">
+                                <form action="" class="form grid">
+                                    <input type="password" placeholder="Current Password" class="form-input">
+
+                                    <input type="password" placeholder="New Password" class="form-input">
+
+                                    <input type="password" placeholder="Confirm Password" class="form-input">
+
+                                    <div class="form-btn">
+                                        <button class="btn btn-md">save</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" content id="">
+                            <h3 class="tab-header"></h3>
+
+                            <div class="tab-body"></div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <section id="newsletter" class="sect_pb">
+                <div class="newsletter-c container grid">
+                    <h3 class="newsletter-title flex">
+                        <img src="../img/icon-email.svg" alt="" class="newsletter-icons" />
+                        sign up to newsletter
+                    </h3>
+                    <p class="newsletter-desc">...and receive $30 coupon for first shopping</p>
+
+                    <form action="" class="newsletter-form">
+                        <input type="text" class="newsletter-input" placeholder="Enter your email" />
+                        <button type="submit" class="newsletter-btn">subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer" class="container">
+            <div class="footer-c grid">
+                <div class="footer-content">
+                    <a href="../../index.html" class="footer-logo">
+                        <img src="#" alt="" class="footer-logo-img">
+                    </a>
+
+                    <h4 class="footer-subtitle">contact</h4>
+
+                    <p class="footer-desc">
+                        <span>address: </span> street 22, Abomey-calavi, bénin
+                    </p>
+
+                    <p class="footer-desc">
+                        <span>phone: </span>+229 99 87 XX XX / 67 09 8X XX
+                    </p>
+
+                    <p class="footer-desc">
+                        <span>hours: </span>09:00 - 20:00, Mon - sat
+                    </p>
+
+                    <div class="footer-social">
+                        <h4 class="footer-subtitle">follow me</h4>
+
+                        <div class="footer-links flex">
+                            <a href="#" class="footer-social-icon">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon">
+                                <i class="ri-pinterest-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <h3 class="footer-subtitle">address</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">about us</a></li>
+                        <li><a href="#" class="footer-link">delivery informatio</a></li>
+                        <li><a href="#" class="footer-link">privacy policy</a></li>
+                        <li><a href="#" class="footer-link">terms & conditions</a></li>
+                        <li><a href="#" class="footer-link">contact us</a></li>
+                        <li><a href="#" class="footer-link">support center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-content">
+                    <h3 class="footer-subtitle">my account</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="./login-r.html" class="footer-link">sign in</a></li>
+                        <li><a href="#" class="footer-link">view cart</a></li>
+                        <li><a href="#" class="footer-link">my wishlist</a></li>
+                        <li><a href="#" class="footer-link">track my order</a></li>
+                        <li><a href="#" class="footer-link">help</a></li>
+                        <li><a href="#" class="footer-link">order</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-content">
+                    <h3 class="footer-subtitle">secured payment gateways</h3>
+
+                    <img src="../img/pay.png" alt="" class="payment-img">
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p class="copyright">&copy; 2023 Armageddon. all rights reserved</p>
+                <span class="designer">designed by ErmiteDevelop</span>
+            </div>
+        </footer>
+
+            <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <!-- MAIN JS -->
+        <script src="../../js/main.js"></script>
+    </body>
+</html>
